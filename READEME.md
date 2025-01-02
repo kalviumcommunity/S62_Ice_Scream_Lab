@@ -50,6 +50,8 @@ Ice Scream Lab is an interactive web application where users can log in and shar
    - Provides hands-on practice with CRUD operations.  
 3. **Engagement & Value**  
    - Encourages user interaction through unique features like likes, dislikes, and comments.  
-   - Offers real-world practice with modern web development technologies.  
+   - Offers real-world practice with modern web development technologies.
+  Render deployed link
+   - https://s62-ice-scream-lab-2.onrender.com
 
 ---s
