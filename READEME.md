@@ -54,4 +54,6 @@ Ice Scream Lab is an interactive web application where users can log in and shar
   Render deployed link
    - https://s62-ice-scream-lab-2.onrender.com
 
+  Deployment Link 
+  -https://s62-ice-scream-lab1.pages.dev/
 ---s
