@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from 'react-router-dom'
 
 const LandingPage = () => {
   return (
@@ -26,6 +27,9 @@ const LandingPage = () => {
             >
               Contact
             </a>
+            <NavLink to="/card" className="text-lg hover:text-gray-400 mx-4 transition">
+              Card
+            </NavLink>
           </nav>
         </div>
       </header>
