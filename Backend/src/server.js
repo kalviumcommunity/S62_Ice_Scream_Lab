@@ -6,11 +6,13 @@ if (process.env.NODE_ENV !== "PRODUCTION") {
 
 const cors = require('cors')
 const express = require("express");
+const path=require("path")
 const userRouter = require('./routes/user.route.js');
 const connectDatabase = require("./DB/database");
 const app = express();
 app.use(express.json());
-app.use(cors({path: ['http://localhost:5173']}));
+app.use(cors());
+
 
 
 
@@ -30,3 +32,4 @@ app.get("/ping", (req, res) => {
 
 
 app.use('/user',userRouter);
+app.use('/uploads',express.static(path.join(__dirname,"../uploads")))
