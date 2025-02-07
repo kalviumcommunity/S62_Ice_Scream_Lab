@@ -30,6 +30,9 @@ const LandingPage = () => {
             <NavLink to="/card" className="text-lg hover:text-gray-400 mx-4 transition">
               Card
             </NavLink>
+            <NavLink to="/signup" className="text-lg hover:text-gray-400 mx-4 transition">
+              SIGN-UP
+            </NavLink>
           </nav>
         </div>
       </header>
